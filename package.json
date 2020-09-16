@@ -1,5 +1,5 @@
 {
-  "name": "primeiro-projeto-node",
+  "name": "PrimeiroProjetoNode",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -22,6 +22,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
+    "date-fns": "^2.16.1",
     "express": "^4.17.1",
     "uuidv4": "^6.2.3"
   }
