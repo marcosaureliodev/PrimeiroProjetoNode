@@ -15,3 +15,6 @@ Model é o formato de um dado que é armazenado em algum lugar da nossa aplicaç
 Nessa aula aplicarei o conceito de repositórios, visando ainda mais a organização e a estrutura dos nossos arquivos.
 
 Um repositório é a conexão entre a persistência (um banco de dados por exemplo) e a aplicação. É pelo repositório onde será buscado as informações no banco (ou onde estiver salva) e devolver para a aplicação.
+
+## Listando agendamento
+Trabalharei a implementação da rota de listagem de agendamentos e apesar de não utilizar muita regra de negócio, verei um pouco mais da utilidade do porquê usarmos os repositórios.
