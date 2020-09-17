@@ -10,3 +10,8 @@ Nesta próxima etapa, irei entender melhor como trabalhar com datas, validar os 
 Será aplicado o conceito de model (ou entidade), com o intuito de isolar mais ainda as responsabilidades de cada parte do código.
 
 Model é o formato de um dado que é armazenado em algum lugar da nossa aplicação, seja um banco de dados ou até mesmo a própria memória.
+
+## Criando repositórios
+Nessa aula aplicarei o conceito de repositórios, visando ainda mais a organização e a estrutura dos nossos arquivos.
+
+Um repositório é a conexão entre a persistência (um banco de dados por exemplo) e a aplicação. É pelo repositório onde será buscado as informações no banco (ou onde estiver salva) e devolver para a aplicação.
