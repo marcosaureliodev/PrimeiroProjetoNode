@@ -5,6 +5,14 @@ import AppointmentsRepository from '../repositories/AppointmentsRepository';
 const appointmentsRouter = Router();
 const appointmentsRepository = new AppointmentsRepository();
 
+// rota de listagem
+appointmentsRouter.get('/', (request, response) => {
+    const appointments = appointmentsRepository.all();
+
+    return response.json(appointments);
+});
+
+// rota de criação
 appointmentsRouter.post('/', (request, response) => {
     const { provider, date } = request.body;
 
@@ -14,6 +22,7 @@ appointmentsRouter.post('/', (request, response) => {
         parsedDate,
     );
 
+    // retorno da respota para o cliente
     if (findAppointmentInSameDate) {
         return response
             .status(400)

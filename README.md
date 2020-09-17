@@ -18,3 +18,8 @@ Um repositório é a conexão entre a persistência (um banco de dados por exemp
 
 ## Listando agendamento
 Trabalharei a implementação da rota de listagem de agendamentos e apesar de não utilizar muita regra de negócio, verei um pouco mais da utilidade do porquê usarmos os repositórios.
+
+## Trabalhando com dados
+Irei entender e aplicar um conceito que será utilizado ao longo de todo o bootcamp que é o DTO (Data Transfer Object).
+
+Uma das melhores formas para transferir dados de um arquivo para outro no JavaScript/TypeScript é utilizando objetos, ainda mais se for um conjunto de informações como por exemplo o nome e e-mail de um usuário, pois assim é possível tipar e usar da desestruturação de objetos para nomear os parâmetros de uma função. Esse e outros conceitos serão explicados na aula!
