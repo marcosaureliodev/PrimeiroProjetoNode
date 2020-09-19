@@ -23,3 +23,8 @@ Trabalharei a implementação da rota de listagem de agendamentos e apesar de n�
 Irei entender e aplicar um conceito que será utilizado ao longo de todo o bootcamp que é o DTO (Data Transfer Object).
 
 Uma das melhores formas para transferir dados de um arquivo para outro no JavaScript/TypeScript é utilizando objetos, ainda mais se for um conjunto de informações como por exemplo o nome e e-mail de um usuário, pois assim é possível tipar e usar da desestruturação de objetos para nomear os parâmetros de uma função. Esse e outros conceitos serão explicados na aula!
+
+## Services & SOLID
+neste momento será aplicar um dos conceitos mais importantes da arquitetura de software que é o service.
+
+Um service é a parte do código que possui toda a regra de negócio necessária para executar uma funcionalidade da aplicação como, por exemplo, criar um usuário, editar um dado, buscar informações no banco, etc. Você entenderá como esse padrão de arquitetura nos ajuda a organizar ainda mais a nossa aplicação e o porque de utilizar.
