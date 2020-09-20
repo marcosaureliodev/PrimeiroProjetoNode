@@ -3,20 +3,10 @@ import { startOfHour } from 'date-fns';
 import Appointment from '../models/Appointments';
 import AppointmentsRepository from '../repositories/AppointmentsRepository';
 
-/*
- * [x] Recebimento da informações
- * [/] Tratativa de erros/excessões
- * [x] Acesso ao repositório
- */
-
 interface Request {
     provider: string;
     date: Date;
 }
-
-/*
- Dependency Inversion (SOLID)
-*/
 
 class CreateAppointmentService {
     private appointmentsRepository: AppointmentsRepository;
@@ -32,7 +22,7 @@ class CreateAppointmentService {
             appointmentDate,
         );
 
-        // retorno da respota para o cliente
+        // retorno de erro dando respota para o cliente
         if (findAppointmentInSameDate) {
             throw Error('This appointments is already booked');
         }
